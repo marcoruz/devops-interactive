@@ -1,0 +1,22 @@
+/* style.css */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.faq-item {
+  margin: 20px 0;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer p {
+  white-space: pre-line; /* Respektiert Zeilenumbrüche und Abstände im Text */
+  margin-left: 20px; /* Rückt den Text ein */
+}
+
