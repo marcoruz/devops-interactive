@@ -1,3 +1,7 @@
+
+import React, { useState } from 'react';
+
+
 const FaqItem = ({ frage, antwort }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,3 +17,5 @@ const FaqItem = ({ frage, antwort }) => {
     </div>
   );
 };
+
+export default FaqItem;
