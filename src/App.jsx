@@ -1,5 +1,5 @@
 // App.jsx
-import React from 'react';
+import React from 'react'; //Anpassen
 import FaqItem from './components/FaqItem'; // Stellen Sie sicher, dass der Pfad korrekt ist
 
 const faqs = [
