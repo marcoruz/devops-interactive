@@ -19,3 +19,4 @@ const FaqItem = ({ frage, antwort }) => {
 };
 
 export default FaqItem;
+//Code Stand 22.05.2024
