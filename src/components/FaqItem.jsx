@@ -6,6 +6,7 @@ const FaqItem = ({ frage, antwort }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => setIsOpen(!isOpen);
+  
 
   return (
     <div className="faq-item">
@@ -19,4 +20,4 @@ const FaqItem = ({ frage, antwort }) => {
 };
 
 export default FaqItem;
-//Code Stand 23.05.2024
+//Code Stand 28.05.2024
