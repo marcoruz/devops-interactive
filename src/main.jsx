@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // Neu
+import App from './App'; // 
 
 const root = ReactDOM.createRoot(document.getElementById('app'));
 root.render(
@@ -10,4 +10,4 @@ root.render(
 );
 
 
-// Zusätzlicher Code Änderungen 28.05
+// Zusätzlicher Code Änderungen 29.05
