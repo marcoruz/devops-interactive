@@ -302,6 +302,7 @@ const faqs = [
   },
 ];
 
+
 module.exports = faqs.map((faq, index) => ({ ...faq, nummer: index + 2 }));
 
 const App = () => {
@@ -315,3 +316,4 @@ const App = () => {
 };
 
 export default App; /// Zusätlicher Code 
+
